@@ -1,0 +1,6 @@
+kolom,batas_bawah,batas_atas,jumlah_outlier,persen,skewness
+age,-12.0,100.0,0,0.0,0.01
+watch_hours,-15.7,35.07,238,4.8,2.26
+last_login_days,-30.0,90.0,0,0.0,-0.03
+avg_watch_time_per_day,-0.81,1.64,549,11.0,15.83
+number_of_profiles,-1.0,7.0,0,0.0,-0.02

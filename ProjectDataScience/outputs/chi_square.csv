@@ -1,0 +1,8 @@
+variabel,churn_min_%,churn_maks_%,chi2,dof,p_value,cramers_v,signifikan_5%
+subscription_type,43.7,61.8,133.3,2,1.1457351490503293e-29,0.163,True
+payment_method,43.6,59.7,96.9,4,4.478433118358446e-20,0.139,True
+number_of_profiles,37.5,58.6,174.0,4,1.4579863298922556e-36,0.187,True
+favorite_genre,47.1,52.4,7.0,6,0.3235910148264879,0.037,False
+gender,49.8,51.1,0.7,2,0.7224877191844741,0.011,False
+region,48.3,51.7,2.7,5,0.7531077652230413,0.023,False
+device,49.2,51.8,1.4,4,0.8361578932203331,0.017,False
