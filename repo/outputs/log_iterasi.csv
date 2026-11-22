@@ -1,7 +1,0 @@
-Iterasi,Yang dilakukan,"Hasil (ROC-AUC CV, LR / RF)",Temuan dan keputusan
-1,Model awal dengan semua fitur (S1),0.9658 / 0.9964,`avg_watch_time_per_day` paling dominan padahal turunan dari dua fitur lain (kebocoran); banyak fitur tidak berasosiasi. Lanjut: buang fitur turunan dan fitur tidak berguna.
-2,Buang 7 fitur (S3),0.9613 / 0.9982,Performa tidak turun (RF justru naik) dengan 5 fitur saja. Keputusan seleksi dipertahankan.
-3,Tambah 3 fitur rekayasa dari pola EDA (S4),0.9728 / 0.9979,"Model linear membaik (ambang 30 hari dan 4 profil tertangkap), pohon tetap. Fitur baru dipakai."
-4,"Uji kebocoran: buang `last_login_days` (S5, lalu skenario B)",0.8420 / 0.8668,"Skor turun tajam: sebagian besar performa bersumber dari satu fitur yang mungkin akibat churn. Keputusan: dua skenario, B (tanpa fitur recency) dijadikan model utama."
-5,Tuning 3 model dengan GridSearchCV (5.3),B: 0.8450 / 0.8706 (GB 0.8738),"Selisih antar model pada skenario B kecil; dipilih lewat aturan satu standard error, bukan skor tertinggi."
-6,"Evaluasi pada data uji, recall pada ambang 0,5 di bawah target",lihat 6.4,"Ambang diturunkan berdasarkan prediksi out-of-fold data latih (bukan data uji) sampai recall CV ≥ 0,80, lalu dievaluasi sekali pada data uji."

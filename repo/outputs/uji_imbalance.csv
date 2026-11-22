@@ -1,5 +1,0 @@
-class_weight,model,ROC-AUC,recall churn
-None,LR,0.9658,0.895
-None,RF,0.9964,0.965
-balanced,LR,0.9658,0.894
-balanced,RF,0.9963,0.964

@@ -1,8 +1,0 @@
-Kriteria (dari 1.4),Hasil pada data uji,Status
-"ROC-AUC ≥ 0,80","0,875 (CI 95 %: 0,855–0,895)",✔ tercapai
-"Recall churn ≥ 0,75 pada ambang baku 0,5","0,742 (CI 95 %: 0,705–0,779)",≈ belum pasti (interval kepercayaan mencakup target)
-"Recall churn ≥ 0,75 pada ambang terpilih 0,425","0,845 (CI 95 %: 0,813–0,877)",✔ tercapai
-"Akurasi di atas baseline 0,503","0,771 (baseline 0,503)",✔ tercapai
-Precision dan F1 dilaporkan,"precision 0,738, F1 0,788",✔ dilaporkan
-Segmen berisiko dan revenue-at-risk dapat dihitung,dihitung pada 7.1 (P4),✔ tercapai
-Reprodusibilitas,"seed tetap, `requirements.txt`, README; eksekusi ulang dari awal menghasilkan angka identik",✔ tercapai

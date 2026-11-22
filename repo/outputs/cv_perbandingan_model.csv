@@ -1,9 +1,0 @@
-skenario,model,params,CV ROC-AUC,SD,CV recall,CV akurasi
-A,Baseline (majority),-,0.5,0.0,1.0,0.503
-A,Logistic Regression,{'C': 1},0.9728289928938819,0.0017601549121782167,0.9055639914571065,0.90625
-A,Random Forest,"{'max_depth': None, 'min_samples_leaf': 1, 'n_estimators': 300}",0.9988537113031553,0.0006417001574943552,0.9806142982358678,0.9844999999999999
-A,Gradient Boosting,"{'learning_rate': 0.1, 'max_depth': None, 'max_iter': 100, 'min_samples_leaf': 20}",0.9995312330070909,0.00026996551380573705,0.9865770403565299,0.9885000000000002
-B,Baseline (majority),-,0.5,0.0,1.0,0.503
-B,Logistic Regression,{'C': 1},0.8450141497543353,0.009534934759936714,0.742040418256114,0.7515000000000001
-B,Random Forest,"{'max_depth': 8, 'min_samples_leaf': 10, 'n_estimators': 300}",0.8705532786632695,0.008653198439816337,0.7211856350999345,0.7605000000000001
-B,Gradient Boosting,"{'learning_rate': 0.03, 'max_depth': 3, 'max_iter': 300, 'min_samples_leaf': 50}",0.8737727327237597,0.008504778993822988,0.7321136254212807,0.7625000000000001
