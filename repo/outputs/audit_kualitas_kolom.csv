@@ -1,0 +1,15 @@
+kolom,tipe,missing,nilai_unik,outlier_IQR,outlier_%,abs_z>3
+customer_id,str,0,5000,,,
+age,int64,0,53,0.0,0.0,0.0
+gender,str,0,3,,,
+subscription_type,str,0,3,,,
+watch_hours,float64,0,2343,238.0,4.8,102.0
+last_login_days,int64,0,61,0.0,0.0,0.0
+region,str,0,6,,,
+device,str,0,5,,,
+monthly_fee,float64,0,3,0.0,0.0,0.0
+churned,int64,0,2,,,
+payment_method,str,0,5,,,
+number_of_profiles,int64,0,5,0.0,0.0,0.0
+avg_watch_time_per_day,float64,0,505,549.0,11.0,67.0
+favorite_genre,str,0,7,,,

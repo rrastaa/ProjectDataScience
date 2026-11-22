@@ -1,0 +1,4 @@
+,Baris,Churn (1),Churn rate (%)
+Seluruh data,5000,2515,50.3
+Data latih (80%),4000,2012,50.3
+Data uji (20%),1000,503,50.3
