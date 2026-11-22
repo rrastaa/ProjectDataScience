@@ -1,6 +1,0 @@
-variabel,median_churn,median_aktif,U,p_value,signifikan_5%
-age,44.0,44.0,3110654.0,0.7802932525052062,False
-watch_hours,4.06,13.86,1171589.5,0.0,True
-last_login_days,41.0,19.0,4825226.5,1.878446714995691e-243,True
-avg_watch_time_per_day,0.12,0.72,477221.5,0.0,True
-monthly_fee,13.99,13.99,2621933.0,1.4178738644772982e-25,True
