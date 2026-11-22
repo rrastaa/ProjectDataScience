@@ -30,10 +30,10 @@ Seluruh alur CRISP-DM berada dalam **satu notebook**, [`Netflix_Churn_Final_Proj
 
 | Nama | NIM | Kontribusi |
 | --- | --- | --- |
-| Radhitya Rasta Pramoja | 123240142 | Cleaning, Preprocessing, dan Feature Selection; penyusunan README |
+| Syahnita | 123240006 | Business Understanding, Data Gathering dan Konklusi |
+| Radhitya Rasta Pramoja | 123240142 | Cleaning, Preprocessing, dan Feature Selection |
 | Constantine Rylianno Sumakul | 123240139 | Exploratory Data Analysis (statistik deskriptif, visualisasi, uji statistik) |
-| Syahnita | 123240006 | Business Understanding dan Data Gathering |
-| Liu Luqyana | 123240223 | Modelling, Evaluasi, dan Konklusi |
+| Liu Luqyana | 123240223 | Modelling dan Evaluasi |
 
 **Dosen pengampu:** Dhimas Arief Dharmawan
 
