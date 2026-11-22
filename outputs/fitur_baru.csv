@@ -1,0 +1,4 @@
+fitur_baru,definisi,churn_rate_0_%,churn_rate_1_%,Cramers_V,p
+inactive_30d,1 bila last_login_days > 30,25.8,75.1,0.494,6.709893072286761e-214
+multi_profile,1 bila number_of_profiles >= 4,58.4,38.5,0.196,3.082222894293512e-35
+risky_payment,1 bila Crypto atau Gift Card,44.8,58.7,0.136,8.579768815389656e-18

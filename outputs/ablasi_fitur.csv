@@ -1,0 +1,7 @@
+Skenario,n_fitur,LR ROC-AUC,LR recall,RF ROC-AUC,RF recall
+S1 Semua fitur (12 kolom),12,0.9658 ± 0.0026,0.895,0.9964 ± 0.0021,0.966
+S2 Semua tanpa avg_watch_time_per_day,11,0.9622 ± 0.0043,0.883,0.9963 ± 0.0012,0.967
+S3 Terpilih (5 kolom),5,0.9613 ± 0.0047,0.883,0.9982 ± 0.0006,0.971
+S4 Terpilih + 3 fitur baru,8,0.9728 ± 0.0017,0.907,0.9979 ± 0.0006,0.971
+S5 Terpilih tanpa last_login_days,4,0.8420 ± 0.0083,0.75,0.8668 ± 0.0091,0.743
+S6 Terpilih + age/gender/region/device/genre,10,0.9605 ± 0.0041,0.881,0.9952 ± 0.0016,0.962

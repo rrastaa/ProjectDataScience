@@ -1,0 +1,5 @@
+,n,median watch_hours,median last_login_days,rerata profil,% paket Basic
+True positive,373.0,2.95,37.0,2.71,50.4
+False negative (churn terlewat),130.0,8.84,46.0,3.18,25.38
+False positive,103.0,8.02,10.0,2.3,47.57
+True negative,394.0,18.64,23.0,3.42,16.24
